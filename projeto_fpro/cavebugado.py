@@ -42,7 +42,7 @@ def play_game():
     clock = pygame.time.Clock()
 
     # screen
-    pygame.display.set_caption('Cave Bugado')
+    pygame.display.set_caption('Cave FPRO')
     WINDOWSIZE = (1000, 600)
     screen = pygame.display.set_mode(WINDOWSIZE, 0, 32)
 
@@ -123,7 +123,7 @@ def play_game():
 
         pygame.display.update()
         c = c + 1
-        clock.tick(60)
+        clock.tick(30)
 
     time.sleep(0.1)
     return display
@@ -136,7 +136,7 @@ def menu():
     clock = pygame.time.Clock()
 
     # screen
-    pygame.display.set_caption('MAIN MENU')
+    pygame.display.set_caption('Cave FPRO')
     WINDOWSIZE = (1000, 600)
     screen = pygame.display.set_mode(WINDOWSIZE, 0, 32)
     running = True

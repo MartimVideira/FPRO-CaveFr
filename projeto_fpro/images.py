@@ -41,7 +41,7 @@ for imagem in (path.glob('*.png')):
     imagename = imagem.name[:-4]
     image = pygame.image.load(str(imagem))
     pixels = pygame.PixelArray(image)
-    pixels = pixels.replace((255, 255, 255), BACKGROUNDCOULOR)
+    pixels = pixels.replace((255, 255, 255), (202, 83, 182))
     contador = 0
     newdir = (diretorio + '\\' + imagename)
     Path(newdir).mkdir()
